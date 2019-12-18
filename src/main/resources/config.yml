@@ -1,0 +1,27 @@
+settings:
+    update:
+        autoUpdate: true
+    recipes:
+        nameTag: true
+        goldenApple: true
+        pigSaddle: true
+        ironHorse: true
+        goldHorse: true
+        diamondHorse: true
+        chainmailArmour: true
+        obsidianBlock: true
+        iceBlock: true
+        cobWeb: true
+        spongeBlock: true
+        grassBlock: true
+        MyceliBlock: true
+        mossyCobble: true
+        mossyBricks: true
+        crackedBricks: true
+        chiseledBricks: true
+        stoneslabBlock: true
+        sandstoneslabBlock: true
+        packedIce: true
+    redying:
+        blackwool: true
+    version: 2.1.0

@@ -1,0 +1,90 @@
+name: UberRecipes
+main: io.github.uberrecipes.UberRecipes
+version: 2.1.2
+api-version: 1.13
+permissions:
+    UberRep.*:
+        description: Gives all permissions
+        default: op
+        children:
+            UberRep.nameTag: true
+            UberRep.goldenApple: true
+            UberRep.pigSaddle: true
+            UberRep.ironHorse: true
+            UberRep.goldHorse: true
+            UberRep.diamondHorse: true
+            UberRep.chainmailArmour: true
+            UberRep.obsidianBlock: true
+            UberRep.iceBlock: true
+            UberRep.cobWeb: true
+            UberRep.spongeBlock: true
+            UberRep.grassBlock: true
+            UberRep.myceliBlock: true
+            UberRep.mossyCobble: true
+            UberRep.mossyBricks: true
+            UberRep.crackedBricks: true
+            UberRep.chiseledBricks: true
+            UberRep.stoneslabBlock: true
+            UberRep.sandstoneslabBlock: true
+            UberRep.packedIce: true
+    UberRep.nameTag:
+        description: Allows the crafting of the Name Tag
+        default: true
+    UberRep.goldenApple:
+        description: Allows the crafting of the Old Golden Apple
+        default: true
+    UberRep.pigSaddle:
+        description: Allows the crafting of the Saddle
+        default: true
+    UberRep.ironHorse:
+        description: Allows the crafting of Iron Horse Armour
+        default: true
+    UberRep.goldHorse:
+        description: Allows the crafting of Gold Horse Armour
+        default: true
+    UberRep.diamondHorse:
+        description: Allows the crafting of Diamond Horse Armour
+        default: true
+    UberRep.chainmailArmour:
+        description: Allows the crafting of the Chainmail Armour
+        default: true
+    UberRep.obsidianBlock:
+        description: Allows the crafting of Obsidian
+        default: true
+    UberRep.iceBlock:
+        description: Allows the crafting of Ice Blocks
+        default: true
+    UberRep.cobWeb: 
+        description: Allows the crafting of Cobwebs
+        default: true
+    UberRep.spongeBlock: 
+        description: Allows the crafting of Sponge
+        default: true
+    UberRep.grassBlock:
+        description: Allows the crafting of Grass Blocks
+        default: true
+    UberRep.myceliBlock: 
+        description: Allows the crafting of Myceilium
+        default: true
+    UberRep.mossyCobble:
+        description: Allows the crafting of Mossy Cobblestone
+        default: true
+    UberRep.mossyBricks:
+        description: Allows the crafting of Mossy Stone Bricks
+        default: true
+    UberRep.crackedBricks:
+        description: Allows the crafting of Cracked Stone Bricks
+        default: true
+    UberRep.chiseledBricks:
+        description: Allows the crafting of Chiseled Stone Bricks
+        default: true
+    UberRep.stoneslabBlock:
+        description: Allows the crafting of the Stone Slab Block
+        default: true
+    UberRep.sandstoneslabBlock:
+        description: Allows the crafting of the Sandstone Slab Block
+        default: true
+    UberRep.packedIce:
+        description: Allows the crafting of Packed Ice
+        default: true
+        
